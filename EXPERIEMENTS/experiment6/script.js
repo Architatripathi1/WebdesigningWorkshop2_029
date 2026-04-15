@@ -14,7 +14,7 @@ changeTextBtn.onclick = function() {
 };
 // 2. Change Background Color (addEventListener)
 colorBtn.addEventListener("click", function() {
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.backgroundColor = "BLUE";                  
 });
 // 3. Change Font Size (onmouseover)
 fontBtn.onmouseover = function() {
@@ -43,3 +43,7 @@ resetBtn.addEventListener("click", function() {
     para.style.display = "block";
     input.value = "";
 });
+// mause over event
+heading.onmouseover = function() {
+    heading.style.color="blue";
+}
