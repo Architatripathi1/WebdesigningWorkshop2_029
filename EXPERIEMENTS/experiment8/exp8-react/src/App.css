@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-card {
+  width: 430px;
+  min-height: 320px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-card h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.counter-card h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.reset-btn {
+  padding: 12px 28px;
+}
